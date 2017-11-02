@@ -1,0 +1,111 @@
+nav {
+	background-color: #003300;
+    color: white;
+    text-align: left;
+	font-family:Arial;
+	font-size: 25px;
+}
+img {
+    border-radius: 25%;
+	width: 100%;
+}
+body {
+    background-color: White;
+	font-family: Arial;
+}
+h1 {
+	background-color: #003300;
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+/* unvisited link */
+a:link {
+     color: white;
+	 font-family:Arial;
+
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+	font-family:Arial;
+	
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+	font-family:Arial;
+
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: red;
+	font-family:Arial;
+	
+	text-decoration: underline;
+}
+
+
+table {
+    font-family: arial ;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+footer [class ^= 'footer-'] {
+    width: 33.3333%;
+    display: inline-block;
+    text-align: center;
+	background-color: #003300;
+    color: white;
+}
+
+footer .footer-left {
+    float: left;
+}
+
+footer .footer-right {
+    float: right;
+}
+		
+
+
+
+div.static {
+     position: static;
+    /* center the element */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+	bottom: 0;
+}
+
+div.sticky {
+
+  position: sticky;
+  top: 0;
+  padding: 5px;
+ 
+}
+
+
